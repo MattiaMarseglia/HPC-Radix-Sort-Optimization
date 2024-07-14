@@ -1,5 +1,9 @@
 # Radix Sort Optimization Project (MPI, CUDA, OpenMP)
 
+<div align="center">
+   <img src="radix-sort.png" alt="radix sort">
+</div>
+
 ## Project Overview
 This project focuses on parallelizing and evaluating the performance of the "Radix Sort" algorithm using CUDA, MPI, and OpenMP. Each section provides solutions to the problem of parallelizing the algorithm, analyzes results with different configurations, and evaluates performance, speedup, and efficiency.
 
@@ -11,6 +15,10 @@ This project focuses on parallelizing and evaluating the performance of the "Rad
 5. [License](#license)
 
 ## CUDA Implementation
+
+<div align="center">
+   <img src="cuda.jpeg" alt="cuda">
+</div>
 
 ### Problem Description
 Parallelize and evaluate the performance of the Radix Sort algorithm using CUDA. Analyze results with different memory allocations (Global, Texture, Shared).
@@ -38,6 +46,10 @@ Parallelize and evaluate the performance of the Radix Sort algorithm using CUDA.
 
 ## MPI Implementation
 
+<div align="center">
+   <img src="MPI.png" alt="MPI">
+</div>
+
 ### Problem Description
 Parallelize and evaluate the performance of the Radix Sort algorithm using MPI. Input data is provided from a file.
 
@@ -63,6 +75,10 @@ Parallelize and evaluate the performance of the Radix Sort algorithm using MPI. 
 - Provide makefile, source code, and folders to test and reproduce results.
 
 ## OpenMP Implementation
+
+<div align="center">
+   <img src="OpenMP.png" alt="OpenMP">
+</div>
 
 ### Problem Description
 Parallelize and evaluate the performance of the Radix Sort algorithm using OpenMP. Input data is provided from a file.
